@@ -1,0 +1,48 @@
+/* assets/css/styles.css */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
+/* movies card */
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+
+/* button */
+.btn-purchase {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-purchase:hover {
+    background-color: #218838;
+}
+
+.btn-watch {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-watch:hover {
+    background-color: #0056b3;
+}

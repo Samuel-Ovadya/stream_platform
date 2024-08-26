@@ -1,0 +1,3 @@
+the website encrypt (using xor with passwordhash+userid) the src video (protected in htaccess) then when the user want to read it it decrypts it , as soon as the user leav the page or logout the decrypted version is deleted
+if the user disn't purchase => no encrypted version => error
+if another user wants to watch when no decrypted version are available => cant decrypt, because of user id / password hash 
